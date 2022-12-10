@@ -1,0 +1,61 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  
+  body {
+    background:white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: navy;
+    border-width: 1px;
+    border-left: 10px;
+  }
+  #tartalom {
+    max-width: 960px;
+    background: skyblue;
+    margin: 0px auto 40px auto;
+    height: 100vh;
+  }
+  p{
+    
+  }
+
+h1, h2 {
+	font-variant: small-caps;
+    margin: 10px;
+}
+h1 {
+    border-bottom: 1px solid blue;
+    width: 80%;
+}
+h1 a{
+    color:white;
+}
+
+.fénykép img{
+    margin: 10px;
+    border: 1px solid blue;
+
+}
+
+table {
+    margin: 0px auto;
+    padding: 10px;
+    width:80%;
+    border: 1px solid blue;
+    
+}
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+td:last-child {
+    text-align: right;
+}
+
